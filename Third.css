@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     }
-    
+
 body {
     font-family: "Poppins";
     background-color: #12141D;
@@ -173,9 +173,15 @@ header {
 .specialization-link {
     display: flex;
     }
-.specialization-link a {
+a {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
     text-decoration: none;
     color: #A1C5E9;
+    }
+.specialization-link a {
+    display: flex;
     } 
 .specialization-link img{
     padding-left: 20px;
@@ -206,8 +212,7 @@ header {
     align-self: end;
     }
 .project-link a {
-    text-decoration: none;
-    color: #A1C5E9;
+    display: flex;
     }
 .project-link img{
     padding-left: 20px;
