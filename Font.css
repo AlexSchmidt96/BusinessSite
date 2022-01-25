@@ -1,16 +1,16 @@
-      @font-face {
-    font-family: "Poppins";
-    src: url(fonts/Poppins/Poppins-Regular.ttf);
-    font-style: normal;
-    font-weight: normal;
-    color: #ffff;
-    font-size: 14px;
-    line-height: 11px;
-    }
-       @font-face {
-    font-family: "Poppins";
-    src: url(fonts/Poppins/Poppins-ExtraBold.ttf);
-    font-style: normal;
-    font-weight: bold;
-    color: #ffff;
-    }
+@font-face {
+  font-family: "Poppins";
+  src: url(fonts/Poppins/Poppins-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+  color: #ffff;
+  font-size: 14px;
+  line-height: 11px;
+  }
+@font-face {
+  font-family: "Poppins";
+  src: url(fonts/Poppins/Poppins-ExtraBold.ttf);
+  font-style: normal;
+  font-weight: bold;
+  color: #ffff;
+  }
