@@ -8,7 +8,7 @@ body {
     font-family: "Poppins";
     background-color: #12141D;
 }
-a {
+.link {
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;
@@ -137,7 +137,7 @@ header {
     font-weight: 800;
     color: #ffff;
 }
-.specialization-columns{
+.specialization-columns {
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -164,7 +164,7 @@ header {
     flex-direction: column;
     padding-bottom: 50px;
 }
-.specialization-description h2{
+.specialization-description h2 {
     font-size: 24px;
     line-height: 36px;
     font-weight: 600;
@@ -180,10 +180,10 @@ header {
 .specialization-link {
     display: flex;
 }
-.specialization-link a {
+.specialization-link .link {
     display: flex;
 } 
-.specialization-link img{
+.specialization-link img {
     padding-left: 20px;
 }
 .project-container {
@@ -211,10 +211,10 @@ header {
     display: flex;
     align-self: end;
 }
-.project-link a {
+.project-link .link {
     display: flex;
 }
-.project-link img{
+.project-link img {
     padding-left: 20px;
 }
 .columns-image-vert {
@@ -248,13 +248,12 @@ header {
     display: flex;
     justify-content: center;
 }  
-.founder-designer {
+.founder-item {
     display: flex;
     flex: 0 1 50%;
-    flex-direction: row;
     align-items: end;
 }
-.founder-tech-and-research{
+.founder-right {
     margin: 110px 0px 0px 15px;
 }
 .founder-description-designer {
@@ -264,6 +263,9 @@ header {
     align-items: flex-end;
     padding-right: 13px;
     text-align: right;
+}
+.founder-description-lead{
+    padding-top: 100px;
 }
 .founder-description-designer h2 {
     font-size: 18px;
@@ -277,12 +279,6 @@ header {
     line-height: 26px;
     font-weight: 300;
     color: #ffff;
-}
-.founder-tech {
-    display: flex;
-    flex: 0 1 50%;
-    flex-direction: row;
-    align-items: end;
 }
 .founder-description-tech {
     display: flex;
@@ -303,11 +299,11 @@ header {
     font-weight: 300;
     color: #ffff;
 }
-.founder-lead {  
+.founder-lead {
+    align-items: center;
     margin-top: 25px;
 }
 .founder-research {
-    flex-direction: row;
     align-items: center;
     margin-top: 40px;
 }
