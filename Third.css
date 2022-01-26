@@ -307,25 +307,21 @@ header {
     align-items: center;
     margin-top: 40px;
 }
-.founder-pic-designer {
-    border-radius: 110px 0px 0px 0px;
+.founder-pic {
     border: none;
     border-color: #12141D;
 }
+.founder-pic-designer {
+    border-radius: 110px 0px 0px 0px;
+}
 .founder-pic-tech {
     border-radius: 0px 110px 0px 0px;
-    border: none;
-    color: #12141D;
 }
 .founder-pic-lead {
     border-radius: 0px 0px 0px 110px;
-    border: none;
-    color: #1E2028;
 }
 .founder-pic-research {
     border-radius: 0px 0px 110px 0px;
-    border: none;
-    color: #1E2028;
 }
 .customers {
     margin-top: 50px;
