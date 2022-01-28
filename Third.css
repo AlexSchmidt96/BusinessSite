@@ -265,10 +265,7 @@ header {
     margin: 110px 0px 0px 15px;
 }
 .founder-description-left {
-    display: flex;
     flex: 0 1 45%;
-    flex-direction: column;
-    align-items: flex-end;
     text-align: right;
     padding-right: 13px;
 }
@@ -278,13 +275,16 @@ header {
 .founder-description-right {
     padding-left: 13px;
 }
-.founder-description h2 {
+.founder-description{
+    padding-left: 14px ;
+}
+.founder-description-title {
     font-size: 18px;
     line-height: 27px;
     font-weight: 500;
     color: #ffff;
 }
-.founder-description p {
+.founder-description-text {
     padding-top: 10px;
     font-size: 14px;
     line-height: 26px;
