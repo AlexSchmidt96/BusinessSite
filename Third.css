@@ -390,3 +390,58 @@ header {
 .slider-circle:last-child {
     padding-right: 0px;
 }
+.presentation {
+    margin-top: 150px;
+    background-color: #1E2028;
+}
+.presentation-body {
+    max-width: 775px;
+    margin: 0 auto;
+}
+.presentation-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.presentation-title {
+    text-align: center;
+    padding: 50px 36px;
+}
+.presentation-title h2 {
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 800;
+    color: #ffff;
+}
+.container-button {
+    padding-bottom: 50px;
+}
+.presentation-row {
+    display: flex;
+    padding-bottom: 50px;
+}
+.presentation-column {
+    padding-right: 30px;
+    flex: 0 1 33.333%;
+}
+.presentation-column:last-child {
+    padding-right: 0px;
+}
+.item-presentation {
+    border-left: 2px solid #ffff;
+    border-right: 2px solid #ffff;
+}
+.item-presentation-title {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #ffff;
+    text-align: center;
+}
+.item-presentation-text {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #ffff;
+    text-align: center;
+}
