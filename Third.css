@@ -15,6 +15,17 @@ body {
     text-decoration: none;
     color: #A1C5E9;
 }
+.button {
+    background: #4080BF;
+    border-radius: 10px;
+    width: 157px;
+    height: 53px;
+    font-weight: bold;
+    color: #ffff;
+    font-size: 18px;
+    line-height: 27px;
+    border: none;
+}
 .wrapper {
     width: 1110px;
     margin: 0 auto;
@@ -39,18 +50,7 @@ header {
 .menu-item:last-child {
     margin-right: 0px;
 }
-.button-text {
-    background: #4080BF;
-    border-radius: 10px;
-    width: 157px;
-    height: 53px;
-    font-weight: bold;
-    color: #ffff;
-    font-size: 18px;
-    line-height: 27px;
-    border: none;
-}
- .banner-container {
+.banner-container {
     margin-top: 50px;
     background-image: url(img/Img.jpg);
     width: 1110px;
@@ -397,6 +397,7 @@ header {
 .presentation-body {
     max-width: 775px;
     margin: 0 auto;
+    padding: 50px 0px 36px 0px;
 }
 .presentation-header {
     display: flex;
@@ -405,7 +406,6 @@ header {
 }
 .presentation-title {
     text-align: center;
-    padding: 50px 36px;
 }
 .presentation-title h2 {
     font-size: 50px;
@@ -413,32 +413,32 @@ header {
     font-weight: 800;
     color: #ffff;
 }
-.container-button {
-    padding-bottom: 50px;
+.presentation-button {
+    margin-top: 50px;
 }
-.presentation-row {
+.presentation-items {
     display: flex;
-    padding-bottom: 50px;
+    margin-top: 50px;
 }
-.presentation-column {
+.presentation-item {
     padding-right: 30px;
     flex: 0 1 33.333%;
 }
-.presentation-column:last-child {
+.presentation-item:last-child {
     padding-right: 0px;
 }
-.item-presentation {
+.presentation-item-content {
     border-left: 2px solid #ffff;
     border-right: 2px solid #ffff;
 }
-.item-presentation-title {
+.presentation-item-title {
     font-size: 28px;
     line-height: 40px;
     font-weight: 700;
     color: #ffff;
     text-align: center;
 }
-.item-presentation-text {
+.presentation-item-text {
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
