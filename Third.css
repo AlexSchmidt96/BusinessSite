@@ -445,3 +445,62 @@ header {
     color: #ffff;
     text-align: center;
 }
+footer {
+    border-top: 1px solid #1E2028;
+    margin-top: 50px;
+}
+.footer-body {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 50px 0px 32px 0px;
+}
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-pic {
+    width: 160px;
+}
+.footer-item-text {
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #ffff;
+}
+.footer-item-image {
+    padding-top: 20px;
+}
+.footer-item-title {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+    color: #ffff;
+    padding-bottom: 20px;
+}
+.footer-item-table {
+    padding-top: 10px;
+}
+.footer-item-table li {
+    padding-bottom: 10px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #ffff;
+    list-style-type: none;
+}
+.footer-item-table li:last-child {
+    padding-bottom: 0px; 
+}
+.footer-item-form-email {
+    padding-left: 10px;
+    width: 255px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background: #41434A ;
+    background-image: url(img/footer/landingPage-icon.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 225px;
+}
