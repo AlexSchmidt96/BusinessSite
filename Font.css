@@ -14,3 +14,10 @@
   font-weight: bold;
   color: #ffff;
 }
+@font-face {
+  font-family: "Poppins";
+  src: url(fonts/Poppins/Poppins-Light.ttf);
+  font-style: normal;
+  font-weight: lighter;
+  color: #ffff;
+}

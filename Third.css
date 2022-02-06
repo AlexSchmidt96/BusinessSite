@@ -445,3 +445,67 @@ header {
     color: #ffff;
     text-align: center;
 }
+footer {
+    border-top: 1px solid #1E2028;
+    margin-top: 50px;
+}
+.footer-body {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 50px 0px 32px 0px;
+}
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-pic {
+    width: 160px;
+}
+.footer-text {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #ffff;
+}
+.footer-image {
+    margin-top: 20px;
+}
+.footer-title {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+    color: #ffff;
+}
+.footer-menu {
+    margin-top: 20px;
+}
+.footer-menu li {
+    padding-bottom: 10px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #ffff;
+    list-style-type: none;
+}
+.footer-menu li:last-child {
+    padding-bottom: 0px; 
+}
+.footer-form {
+    margin-top: 20px;
+    position: relative;
+}
+.footer-form-email {
+    padding: 0px 38px 0px 10px;
+    width: 255px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    color: #D9DBE1;
+    background: #41434A ;
+}
+.footer-form-image {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+}
